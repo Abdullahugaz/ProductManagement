@@ -20,12 +20,11 @@ const mainNavItems: NavItem[] = [
         href: '/dashboard',
         icon: LayoutGrid,
     },
-   {
-    title: 'Customers',
-    href: '/customers', // ✅ Correct path
-    icon: Users,
-},
-
+    {
+        title: 'Customers',
+        href: '/customers',
+        icon: Users,
+    },
     {
         title: 'Sales',
         href: '/sales',
@@ -41,7 +40,20 @@ const mainNavItems: NavItem[] = [
         href: '/users/create',
         icon: UserPlus,
     },
+
+    // 🔽 Add these report links
+    {
+        title: 'Sales Report',
+        href: '/reports/sales',
+        icon: Folder,
+    },
+    {
+        title: 'Customer Report',
+        href: '/reports/customers',
+        icon: BookOpen,
+    },
 ];
+
 
 
 </script>
